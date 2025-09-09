@@ -1,0 +1,17 @@
+# Entorno virtual
+venv/
+ENV/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Docker
+.dockerignore
