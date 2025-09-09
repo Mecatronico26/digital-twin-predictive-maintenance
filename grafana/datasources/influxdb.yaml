@@ -1,0 +1,17 @@
+apiVersion: 1
+datasources:
+  - name: InfluxDB
+    type: influxdb
+    access: proxy
+    orgId: 1
+    url: http://influxdb-server:8086
+    basicAuth: false
+    isDefault: true
+    version: 1
+    editable: true
+    jsonData:
+      version: Flux
+      organization: myorg
+      defaultBucket: predictive_maintenance
+    secureJsonData:
+      token: mytoken
